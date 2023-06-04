@@ -9,7 +9,7 @@
       </div>
       <div v-bind:class="{'hidden': !showMenu, 'flex': showMenu}" class="lg:flex lg:flex-grow items-center">
         <ul class="flex flex-col lg:flex-row list-none ml-auto">
-          <li  @click="scrolltoId('section1')" class="nav-item cursor-pointer text-white nav-item">
+          <li  @click="scrolltoId('section1')" class="nav-item cursor-pointer text-white nav-item content-center">
             <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
              <span class="ml-2">Description</span>
             </a>
@@ -25,9 +25,9 @@
             </a>
           </li>
           <li>
-            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
+           
               <button  @click="scrolltoId('price')" type="button" class="btn bg-yellow-300 hover:bg-bookmark-white hover:text-black text-black nav-item">Offer</button>
-            </a>
+       
           </li>
         </ul>
       </div>
