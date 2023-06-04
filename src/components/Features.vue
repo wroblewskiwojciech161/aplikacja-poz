@@ -62,6 +62,14 @@
             </div>
         </div>
 
+         <!-- Feature #2-->
+         <div id="film-section" class="relative mt-20 lg:mt-52">
+            <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
+               <img class="sm:w-12/12 lg:w-6/12 " src="../assets/images/film mock.jpg"/>
+            </div>
+        </div>
+
+
         <div id="price" class="relative mt-20 lg:mt-24">
             <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
                 <!-- Feature #1-->
